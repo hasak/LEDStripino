@@ -9,15 +9,6 @@ This project demonstrates a smooth LED fading sequence on an Arduino using PWM p
 - Adjustable delay between brightness steps
 - Initial 5-second startup delay before the effect begins
 
-## Code Overview
-
-- The code uses the `analogWrite` function to control LED brightness.
-- A startup sequence gradually increases brightness on pins 5 and 11.
-- The main loop cycles through each LED:
-  - Decreasing the brightness of the next LED
-  - Increasing the brightness of the current LED
-- The delay between steps is defined by the `DELAY` constant, which can be adjusted for faster or slower transitions.
-
 ## Usage
 
 1. Connect the LEDs to pins 3, 5, and 11 with appropriate resistors.
