@@ -9,14 +9,6 @@ This project demonstrates a smooth LED fading sequence on an Arduino using PWM p
 - Adjustable delay between brightness steps
 - Initial 5-second startup delay before the effect begins
 
-## Pin Connections
-
-| LED | Arduino Pin |
-|-----|-------------|
-| LED 1 | 3 |
-| LED 2 | 5 |
-| LED 3 | 11 |
-
 ## Code Overview
 
 - The code uses the `analogWrite` function to control LED brightness.
